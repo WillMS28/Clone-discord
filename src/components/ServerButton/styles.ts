@@ -22,8 +22,8 @@ export const Button = styled.button<Props>`
   cursor: pointer;
 
   > img {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
   }
 
   &::before {
@@ -70,6 +70,9 @@ export const Button = styled.button<Props>`
     border-radius: 16px;
     background-color: ${(props) => 
       props.isHome ? 'var(--rocketseat)' : 'var(--discord)'
+    };
+    img {
+      border-radius: 16px;
     }
   }
 `

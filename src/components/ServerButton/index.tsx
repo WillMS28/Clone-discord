@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from '../../assets/Willwilliam.svg'
+import logo from '../../assets/Willwilliam.png'
 
 import { Button } from './styles'
 
