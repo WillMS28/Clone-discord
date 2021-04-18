@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ChannelButton from '../ChannelButton'
+
 import { Container, Category, AddCategoryIcon } from './styles'
 
 const ChannelList: React.FC = () => {
@@ -10,11 +12,11 @@ const ChannelList: React.FC = () => {
         <AddCategoryIcon />
       </Category>
 
-      {/* <ChannelButton channelName="Chat-livre" />
+      <ChannelButton channelName="Chat-livre" />
       <ChannelButton channelName="Trabalho" />
       <ChannelButton channelName="Estudos" />
       <ChannelButton channelName="Musicas" />
-      <ChannelButton channelName="Vídeos" /> */}
+      <ChannelButton channelName="Vídeos" />
 
     </Container>
   )

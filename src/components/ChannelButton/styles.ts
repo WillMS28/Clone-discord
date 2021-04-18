@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { Hashtag } from 'styled-icons/heroicons-outline'
+import { PersonAdd, Settings } from 'styled-icons/material'
 
 export const Container = styled.div`
   display: flex;
@@ -28,17 +30,53 @@ export const Container = styled.div`
     margin-left: 5px;
   }
 
+  > div:last-of-type svg {
+    display: none;
+  }
+  
   &:hover, &.active {
     background-color: var(--quinary);
 
     > div span {
       color: var(--white);
     }
+    
+    > div svg {
+      display: flex;
+      color: var(--white);
+    }
   }
 `
 
-export const HashtagIcon = styled.div``
+export const HashtagIcon = styled(Hashtag)`
+  width: 20px;
+  height: 20px;
 
-export const InviteIcon = styled.div``
+  color: var(--symbol);
+`
 
-export const SettingsIcon = styled.div``
+export const InviteIcon = styled(PersonAdd)`
+  width: 16px;
+  height: 16px;
+
+  margin-right: 4px;
+
+  color: var(--symbol);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--white);
+  }
+`
+
+export const SettingsIcon = styled(Settings)`
+  width: 16px;
+  height: 16px;
+
+  color: var(--symbol);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--white);
+  }
+`
