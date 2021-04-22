@@ -1,12 +1,23 @@
-import React from 'react'
+import React, { useRef, useEffect } from 'react'
+
 import ChannelMessage, { Mention } from '../ChannelMessage'
 
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles'
 
 const ChannelData: React.FC = () => {
+  const messageRef =useRef() as React.MutableRefObject<HTMLDivElement>
+
+  useEffect(() => {
+    const div = messageRef.current
+
+    if (div) {
+      div.scrollTop = div.scrollHeight
+    }
+  })
+
   return (
     <Container> 
-      <Messages>
+      <Messages ref={messageRef}>
         {Array.from(Array(15).keys()).map((n) => (
           <ChannelMessage 
             key={n}
