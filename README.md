@@ -6,6 +6,13 @@ Projeto realizado para a prática na programação utilizando **React** juntamen
 
 Treinamento em práticas em **CSS** utilizando Styled Components em Typescrip
 
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+
 ### Dependencias utilizadas na aplicação:
 
 *    *"react"*
@@ -32,4 +39,7 @@ Ao Transmitir para a sua maquina local, o projeto pode ser iniciando usando o co
 ```
 "yarn start" ou "npm run start"
 ```
-Assim ele irar iniciar no http://localhost:3000/ da sua maquina.
+Assim ele irar iniciar no [localhost:3000](http://localhost:3000/) da sua maquina.
+
+
+<img src="https://img.shields.io/github/followers/WillMS28?style=social"/>
