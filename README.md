@@ -12,6 +12,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [React](https://pt-br.reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Styled-components](https://styled-components.com/)
 
 ### Dependencias utilizadas na aplicação:
 
